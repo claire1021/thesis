@@ -2,16 +2,6 @@
 #include<unistd.h>
 #include<stdlib.h>
 
-
-/*
-void getResourceRatio(){
-	system("top -n 1|grep Cpu|cut -d \",\" -f 1|cut -d \":\" -f 2 >>cpu.txt");
-	system("top -n 1|grep Cpu|cut -d \",\" -f 2 >>cpu.txt");
-	system("top -n 1|grep Mem|cut -d \",\" -f 1 |cut -d \":\" -f 2 >>cpu.txt");
-	system("top -n 1|grep Mem|cut -d \",\" -f 2 >>cpu.txt");
-}
-*/
-
 //cpu information
 typedef struct CPU_OCCUPY{
 	char name[20];
